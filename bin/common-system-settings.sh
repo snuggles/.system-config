@@ -23,7 +23,7 @@ defaults write com.apple.screencapture location ~/Desktop/Screenshots
 
 
 ## Github
-ssh-keygen -t rsa -C "cap@`hostname -s`"
+ssh-keygen -t rsa -b 4096 -C "cap@`hostname -s`"
 
 # Copy public key to Github.com
 cat ~/.ssh/id_rsa.pub

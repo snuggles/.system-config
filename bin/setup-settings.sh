@@ -30,7 +30,7 @@ git clone https://github.com/tarjoilija/zgen.git "${HOME}/.zgen"
 ssh-keygen -t rsa -b 4096 -C "carsten@`hostname -s`"
 
 # Copy public key to Github.com
-# cat ~/.ssh/id_rsa.pub
+cat ~/.ssh/id_rsa.pub
 
 # Test connection
 ssh -T git@github.com
