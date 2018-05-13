@@ -23,10 +23,10 @@ defaults write com.apple.screencapture location ~/Desktop/Screenshots
 
 
 ## Github
-ssh-keygen -t rsa -b 4096 -C "cap@`hostname -s`"
+#ssh-keygen -t rsa -b 4096 -C "cap@`hostname -s`"
 
 # Copy public key to Github.com
-cat ~/.ssh/id_rsa.pub
+#cat ~/.ssh/id_rsa.pub
 
 # Test connection
 ssh -T git@github.com
@@ -40,6 +40,6 @@ git config --global github.user snuggels
 git config --global core.editor "code -w"
 git config --global color.ui true
 
-# Dropbox work directory
-mkdir ~/Cloud/Dropbox/work
+#  Dropbox work directory
+mkdir -p ~/Cloud/Dropbox/work
 ln -s ~/Cloud/Dropbox/work ~/work
