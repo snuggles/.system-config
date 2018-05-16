@@ -6,7 +6,8 @@
 scutil --set HostName "MacMini"
 
 # Set a blazingly fast keyboard repeat rate
-defaults write NSGlobalDomain KeyRepeat -int 1
+
+defaults write NSGlobalDomain KeyRepeat -int 4
 
 # Set a shorter Delay until key repeat
 defaults write NSGlobalDomain InitialKeyRepeat -int 10
